@@ -1,4 +1,4 @@
-.ListDisplay {
+/* .ListDisplay {
   width: 100%;
   padding: 2em 1em;
 }
@@ -27,6 +27,6 @@
   .ListDisplay .ListContainer {
     display: flex;
     flex-direction: row;
-    /* gap: 3em; */
+    gap: 3em;
   }
-}
+} */
