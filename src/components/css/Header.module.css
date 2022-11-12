@@ -1,14 +1,6 @@
 .Header {
-  /* height: 12vh;
-  display: flex;
-  justify-content: space-around;
-  align-items: center; */
   padding: 1em;
   color: #434343;
-}
-
-.logo {
-  /* width: 10%; */
 }
 
 .logo svg {
@@ -71,6 +63,7 @@
   
   .Header button {
     position: relative;
+    display: inline-block;
     background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
     border-radius: 10px;
     border: none;

@@ -1,0 +1,49 @@
+.MetaNft {
+  width: 100%;
+  padding: 5em 3em;
+  /* background-color: #a02279; */
+  background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+  border: 1px solid #000;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  text-align: left;
+}
+
+.MetaNft div {
+  margin-bottom: 4em;
+}
+
+.MetaNft h1 {
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 60px;
+  background-clip: text;
+  padding-bottom: 1em;
+}
+
+.MetaNft p {
+  font-size: 18px;
+  line-height: 35px;
+  margin-bottom: 3em;
+}
+
+.MetaNft a {
+  font-size: 16px;
+  line-height: 19px;
+  text-decoration: none;
+  background: linear-gradient(124.4deg, #FFFFFF 10.8%, #FFFFFF 87.34%);
+  border-radius: 8px;
+  color: #A02279;
+  padding: 1em;
+}
+
+@media screen and (min-width: 768px) {
+  .MetaNft {
+    padding: 10em 12em;
+    gap: 3em;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+}
