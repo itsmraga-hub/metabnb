@@ -1,0 +1,90 @@
+.Footer {
+  background-color: #1d1d1e;
+  color: #fff;
+  padding: 3em;
+}
+
+.FooterContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  flex-wrap: wrap;
+}
+
+/* .FooterContainer div {
+  width: 40%;
+} */
+
+.ListFooterContainer div h3 {
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 700;
+  padding-bottom: 1em;
+}
+
+.ListFooterContainer div ul li {
+  font-size: 14px;
+  line-height: 35px;
+  color: #f1f3f9;
+  font-weight: 400;
+}
+
+.ListFooterContainer {
+  width: 100%;
+  display: flex;
+  column-gap: 4em;
+  row-gap: 2em;
+  flex-wrap: wrap;
+}
+
+.ListFooterContainer div {
+  width: 40%;
+}
+
+.socials {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  padding: 0 0 2em;
+}
+
+.socials ul {
+  display: flex;
+  gap: 3em;
+}
+
+.copy {
+  margin-top: 2em;
+  font-size: 16px;
+  line-height: 16px;
+  color: #f7f7f7;
+}
+
+@media screen and (min-width: 768px) {
+  .FooterContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 10em;
+  }
+
+  .FooterContainer div {
+    width: auto;
+  }
+
+  .socials {
+    justify-content: space-between;
+  }
+
+  .ListFooterContainer {
+    width: 100%;
+    display: flex;
+    gap: 20em;
+    justify-content: space-between;
+  }
+
+  .copy {
+    padding-left: 7em;
+  }
+}
