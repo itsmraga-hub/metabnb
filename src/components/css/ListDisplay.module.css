@@ -1,4 +1,4 @@
-/* .ListDisplay {
+.ListDisplay {
   width: 100%;
   padding: 2em 1em;
 }
@@ -29,4 +29,4 @@
     flex-direction: row;
     gap: 3em;
   }
-} */
+}
