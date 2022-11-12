@@ -1,0 +1,86 @@
+.Header {
+  /* height: 12vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; */
+  padding: 1em;
+  color: #434343;
+}
+
+.logo {
+  /* width: 10%; */
+}
+
+.logo svg {
+  width: 40%;
+}
+
+.Header a {
+  text-decoration: none;
+}
+
+.Header ul {
+  padding: 1em;
+  display: flex;
+  gap: 1em;
+  font-size: 15px;
+  line-height: 25px;
+}
+
+
+.Header button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+  border-radius: 10px;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 0.75em 1em;
+}
+
+.Header button:hover {
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .Header {
+    height: 12vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #434343;
+  }
+
+  .logo svg {
+    width: 100%;
+  } 
+  
+  .Header a {
+    text-decoration: none;
+  }
+  
+  .Header ul {
+    display: flex;
+    gap: 1em;
+    font-size: 20px;
+    line-height: 25px;
+  }
+  
+  .Header button {
+    position: relative;
+    background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 0.75em 1em;
+  }
+  
+  .Header button:hover {
+    cursor: pointer;
+  }
+}
