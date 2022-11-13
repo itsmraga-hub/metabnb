@@ -1,6 +1,14 @@
+import Footer from "../components/Footer";
+import Header from "../components/Header";
+import PlaceToStayListDisplay from "../components/PlaceToStayListDisplay";
+
 const PlaceToStay = () => (
   <>
-    <h1>Place to stay</h1>
+    <Header />
+    <main>
+      <PlaceToStayListDisplay />
+    </main>
+    <Footer />
   </>
 );
 
