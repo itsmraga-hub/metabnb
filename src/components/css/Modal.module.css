@@ -1,0 +1,57 @@
+.darkBG {
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 100vw;
+  height: 100vh;
+  z-index: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.modal {
+  /* padding: 2em; */
+  width: 250px;
+  height: 170px;
+  background: white;
+  color: white;
+  z-index: 10;
+  border-radius: 16px;
+  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.04);
+  color: #434343;
+}
+
+.modal .header button {
+  background-color: #fff;
+  border: none;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2em 2em;
+  border-bottom: 1px solid #CFD8DC;;
+}
+
+.header h2 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  color: #333;
+}
+
+@media screen and (min-width: 768px) {
+  .modal {
+    width: 600px;
+    height: 326px;
+  }
+}
