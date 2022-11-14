@@ -14,8 +14,8 @@
 }
 
 .Container ul li {
-  width: 25%;
-  font-size: 20px;
+  width: auto;
+  font-size: 16px;
   line-height: 25px;
   color: #434343;
 }
@@ -42,5 +42,6 @@
 
   .Container ul li {
     width: auto;
+    font-size: 20px;
   }
 }
