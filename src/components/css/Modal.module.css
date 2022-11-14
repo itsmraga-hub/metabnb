@@ -17,9 +17,9 @@
 }
 
 .modal {
-  /* padding: 2em; */
+  padding-bottom: 4em;
   width: 250px;
-  height: 170px;
+  height: auto;
   background: white;
   color: white;
   z-index: 10;
@@ -31,6 +31,10 @@
 .modal .header button {
   background-color: #fff;
   border: none;
+}
+
+.modal .header button:hover {
+  cursor: pointer;
 }
 
 .header {
@@ -49,9 +53,48 @@
   color: #333;
 }
 
+.Body {
+  padding-top: 2em;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.Body p {
+  width: 80%;
+  margin: auto;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.Body button {
+  padding: 0.5em 1em;
+  width: 80%;
+  margin: auto;
+  border: 1px solid #cfd8dc;
+  background: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 12px;
+  background: #f8f9fa;
+}
+
+.Body button img {
+  width: 70%;
+}
+
+.Body button:hover {
+  cursor: pointer;
+}
+
 @media screen and (min-width: 768px) {
   .modal {
     width: 600px;
-    height: 326px;
+    height: auto;
+  }
+
+  .Body button img {
+    width: auto;
   }
 }
