@@ -136,7 +136,6 @@ const PlaceToStayListDisplay = () => {
   ]
   return (
     <section className={style.ListDisplay}>
-      <h1>Inspiration for your next adventure</h1>
       <ul className={style.ListContainer}>
       {
         homes.map((home, i) => {

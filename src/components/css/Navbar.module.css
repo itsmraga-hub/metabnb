@@ -1,0 +1,47 @@
+.Container {
+  width: 100%;
+  padding-top: 3em;
+}
+
+.Container ul {
+  width: 100%;
+  display: flex;
+  gap: 1em;
+  flex-wrap: wrap;
+  padding: 1em;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.Container ul li {
+  width: auto;
+  font-size: 16px;
+  line-height: 25px;
+  color: #434343;
+}
+
+.Location {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+  padding: 0.5em 1em;
+  background: linear-gradient(124.4deg, #FFFFFF 10.8%, #FFFFFF 87.34%);
+  border: 1px solid #B4B4B4;
+  border-radius: 8px;
+}
+
+.Container ul li:nth-last-child() span {
+  display: inline-block;
+}
+
+@media screen and (min-width: 768px) {
+  .Container ul {
+    padding: 1em 10em;
+  }
+
+  .Container ul li {
+    width: auto;
+    font-size: 20px;
+  }
+}
