@@ -107,7 +107,11 @@
   }
 
   .NavContainer svg {
-    width:100%;
+    width: 100%;
+  }
+
+  .LandingSection img {
+    width: 100%;
   }
 
 }
