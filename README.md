@@ -1,70 +1,83 @@
-# Getting Started with Create React App
+# metabnb
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> Rent a Place away from Home in the Metaverse
+> we provide you access to luxury and affordable houses in the metaverse, get a chance to turn your imagination to reality at your comfort zone
 
-## Available Scripts
+## Built with
 
-In the project directory, you can run:
+- React
 
-### `npm start`
+## Live Preview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+> [Click to view](https://ragasmetatabnb.netlify.app/)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Setup for metabnb Project
 
-### `npm test`
+## Getting Started
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Fork or clone the repository to your local computer
 
-### `npm run build`
+  - Open Git Bash or any terminal window and navigate to the directory you wish to clone the rogram at. Then use -- `git clone https://github.com/itsmraga-hub/Conference-Page` to clone the repository.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  - `cd metabnb`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+  - Type `code .` to open the directory in your vscode or use any editor of your choice.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+  - run `npm i` to install all project dependencies.
+  
+  - run `npm run start` to serve the project on your local host
 
-### `npm run eject`
+  - There you go!
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- ### Mobile Version
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+  - Responsive Web Design for mobile, tablet and Desktop.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Prerequisites
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Text editor.
+- JavaScript.
+- React.js
+- Linters i.e. Webhint, stylelint, lighthouse, and eslint.
+- Git.
 
-## Learn More
+## Setup
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Install
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- [Linters](https://github.com/microverseinc/linters-config/tree/master/html-css)
 
-### Code Splitting
+## Usage
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Deployment
 
-### Analyzing the Bundle Size
+- [View Live Page Here](https://ragasmetatabnb.netlify.app/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Authors
 
-### Making a Progressive Web App
+👤 **Author**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- GitHub: [@itsmraga-hub](https://github.com/itsmraga-hub)
 
-### Advanced Configuration
+- Twitter: [@RagaMacharia](https://twitter.com/RagaMacharia)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- Linkedin: [@itsmraga](https://www.linkedin.com/in/itsmraga/)
 
-### Deployment
+## 🤝 Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- Contributions, issues, and feature requests are welcome!
 
-### `npm run build` fails to minify
+- Feel free to check the [issues page](../../issues/).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Show your support
+
+- Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Inspiration
+- React FE task for stage 3 at HNG 9.0
+
+## LICENSE
+
+- [MIT](./LICENSE)
